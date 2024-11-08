@@ -6,6 +6,6 @@ app.get('/',(req,res)=>{
 app.get('/home',(req,res)=>{
     res.send("Hello ")
 })
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log("server Started Sucessfully")
 })
